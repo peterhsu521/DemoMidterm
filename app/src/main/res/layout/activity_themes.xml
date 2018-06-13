@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="106dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="116dp"
+        android:layout_marginEnd="171dp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginRight="171dp"
+        android:layout_marginStart="136dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="311dp"
+        android:layout_height="309dp"
+        android:layout_marginBottom="108dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginRight="109dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="38dp"
+        android:text="The coloured view applied by Theme set in AndroidManifest"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.226" />
+</android.support.constraint.ConstraintLayout>

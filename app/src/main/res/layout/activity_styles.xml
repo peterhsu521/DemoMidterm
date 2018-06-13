@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/LargeBlueFont"
+        android:layout_width="352dp"
+        android:layout_height="290dp"
+        android:layout_marginEnd="180dp"
+        android:layout_marginLeft="146dp"
+        android:layout_marginRight="180dp"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="36dp"
+        android:text="This is an example of applying reusable styles to easily manage common view attributes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.438"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/NiceBlueButton"
+        android:layout_width="155dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="162dp"
+        android:layout_marginEnd="191dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginRight="191dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="63dp"
+        android:text="Button Style"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.666" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/NiceBlueButton"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="69dp"
+        android:layout_marginEnd="172dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginRight="172dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="43dp"
+        android:text="Button Style 2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+</android.support.constraint.ConstraintLayout>
